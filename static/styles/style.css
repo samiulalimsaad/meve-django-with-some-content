@@ -1,0 +1,206 @@
+/* common CSS */
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f7f7f7;
+}
+h1 {
+    font-size: 50px;
+    color: #333;
+    margin: 0;
+}
+p {
+    color: #3f3f3f;
+}
+section {
+    padding: 0 10%;
+    margin-bottom: 150px;
+}
+
+.community h2,
+.develop h2,
+.own-project h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block {
+    display: block;
+}
+.coading,
+.project {
+    display: flex;
+    justify-content: center;
+}
+.coading img,
+.project img {
+    width: auto;
+    height: 500px;
+}
+
+.main div,
+.develop div,
+.community div {
+    width: 50%;
+}
+
+.focus {
+    border-left: 2px solid orangered;
+    padding: 0 20px;
+}
+
+.orange {
+    color: tomato;
+    display: block;
+}
+
+.btn {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+/* common CSS end */
+
+/* main start */
+.mission-p {
+    padding-right: 20%;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image img {
+    width: 600px;
+    height: 100%;
+}
+/* main end */
+
+/* mission start */
+
+.my-mission h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: navy;
+}
+
+.tomato {
+    color: tomato;
+    margin-left: 10px;
+}
+
+.card {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 2% 2%;
+}
+
+.illustration {
+    width: 150px;
+    height: 100%;
+}
+
+.mission {
+    background-color: rgba(255, 99, 71, 0.15);
+}
+
+.vission {
+    background-color: rgba(153, 205, 50, 0.15);
+}
+
+.goal {
+    background-color: rgba(0, 255, 255, 0.15);
+}
+/* mission end */
+
+/* develop start */
+
+.develop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+/* develop end */
+
+/* community start */
+.community {
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+}
+.community div img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* community end */
+
+/* latest project start */
+
+.own-project {
+    background-image: url(images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100px;
+}
+.own-project h2 {
+    color: navy;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.own-project-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.own-project-img {
+    display: flex;
+    justify-content: center;
+}
+.own-project-img img {
+    width: 200px;
+}
+
+/* latest project end */
+
+/* footer Start */
+
+footer {
+    background-color: rgb(0, 0, 34);
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    font-family: "Pacifico", cursive;
+    color: #f7f7f7;
+}
+footer h2 span {
+    color: yellowgreen;
+}
+footer p {
+    margin: 0;
+    color: #f7f7f7;
+}
+
+/* footer end */

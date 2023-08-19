@@ -1,0 +1,170 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mission</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="{% static 'styles/style.css' %}" />
+    </head>
+    <body>
+        <!-- Main Section Start -->
+        <section class="main flex">
+            <div>
+                <h1 class="focus">
+                    Focussing On
+                    <span class="orange"> Mission 2022 </span>
+                </h1>
+                <p class="mission-p">
+                    Hello, I'm Samiul Alim from Rajshahi. My focus is to be a
+                    full stack developer with
+                    <strong>full dedication</strong> and
+                    <strong>hard working</strong> .
+                </p>
+                <a class="btn" href="#">Explore now</a>
+                <p>Scroll down to explore more about me</p>
+            </div>
+            <div class="main-image">
+                <img
+                    src="{% static 'images/person/samiul-alim.png' %}"
+                    alt=""
+                />
+            </div>
+        </section>
+        <!-- Main Section end -->
+        <!-- Mission Section Start -->
+        <section class="my-mission">
+            <h1>My Mission in <span class="tomato">2022</span></h1>
+            <div class="flex">
+                <div class="card mission">
+                    <div>
+                        <img
+                            class="illustration"
+                            src="{% static 'images/illustrators/illustrator-1.png' %}"
+                            alt=""
+                        />
+                    </div>
+                    <div>
+                        <h2>Mission</h2>
+                        <p>
+                            A great mission with
+                            <strong>hard working</strong> to learn web
+                            development.
+                        </p>
+                    </div>
+                </div>
+                <div class="card vission">
+                    <div>
+                        <img
+                            class="illustration"
+                            src="{% static 'images/illustrators/illustrator-2.png' %}"
+                            alt=""
+                        />
+                    </div>
+                    <div>
+                        <h2>Vission</h2>
+                        <p>A huge vission to be a full stack web developer</p>
+                    </div>
+                </div>
+                <div class="card goal">
+                    <div>
+                        <img
+                            class="illustration"
+                            src="{% static 'images/illustrators/illustrator-3.png' %}"
+                            alt=""
+                        />
+                    </div>
+                    <div>
+                        <h2>Goals</h2>
+                        <p>
+                            To be a junior web developer within next few months
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mission Section end -->
+        <!-- Develop Section start -->
+        <section class="develop">
+            <div class="coading">
+                <img src="{% static 'images/pictures/coding.png' %}" alt="" />
+            </div>
+            <div class="develop-limit">
+                <h2>Develop <span class="block">Without Limits</span></h2>
+                <p>
+                    Developing with <strong>full dedication</strong> and getting
+                    support from his
+                    <strong>hard working</strong>
+                </p>
+                <a class="btn" href="#">Read the Documentation</a>
+            </div>
+        </section>
+        <!-- Develop Section end -->
+        <!-- Community Section start -->
+        <section class="community flex">
+            <div>
+                <h2>Know our <span class="block">Global Community</span></h2>
+                <p>
+                    There has a great community of
+                    <strong>full dedication</strong> and
+                    <strong>hard working</strong> and we are a part of this
+                    community.
+                </p>
+                <a class="btn" href="#">Read the Documentation</a>
+            </div>
+            <div class="project">
+                <img src="./images/pictures/project.png" alt="" />
+            </div>
+        </section>
+        <!-- Develop Section end -->
+        <!-- Contact Section start -->
+
+        <section class="own-project">
+            <h2>Latest projects</h2>
+            <div class="flex">
+                <div class="own-project-card">
+                    <div class="own-project-img">
+                        <img src="./images/pictures/1.jpg" alt="" />
+                    </div>
+                    <div>
+                        <h3>Never give up</h3>
+                        <p>Work hard and keep focus on the goal</p>
+                    </div>
+                </div>
+                <div class="own-project-card">
+                    <div class="own-project-img">
+                        <img src="./images/pictures/2.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>Planning</h3>
+                        <p>Plan before coding</p>
+                    </div>
+                </div>
+                <div class="own-project-card">
+                    <div class="own-project-img">
+                        <img src="./images/pictures/3.jpg" alt="" />
+                    </div>
+                    <div>
+                        <h3>Community</h3>
+                        <p>Share problem with the community</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section end -->
+
+        <footer>
+            <h2>Mission <span>2022</span></h2>
+            <p>Hard work, Perseverance, and Determination for 2022</p>
+        </footer>
+    </body>
+</html>
