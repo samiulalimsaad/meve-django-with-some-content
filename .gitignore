@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.env
+
+# Django media and static files
+media/
+staticfiles/
+
+# Database
+*.sqlite3
+*.db
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+
+# Virtual environment
+venv/
+.env/
+
+# Compiled Python bytecode
+*.pyc
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled translations
+locale/
+
+# Ignore secret keys, sensitive information, and environment-specific settings
+*.secret
+*.key
+*.settings
+
+# Ignore the Django secret key
+secret_key.txt
+
+# Ignore pipenv and poetry lock files
+Pipfile.lock
+poetry.lock
+
+# Ignore macOS system files
+.DS_Store
